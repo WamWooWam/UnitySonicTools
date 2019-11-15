@@ -5,12 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
-namespace SonicTools.Instancer
+[Serializable]
+public struct InstancerData
 {
-    [Serializable]
-    public struct InstancerData
-    {
-        public Vector3 position;
-        public int type;
-    }
+    public Vector3 position;
+    public int type;
 }

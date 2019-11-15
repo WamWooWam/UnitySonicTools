@@ -21,7 +21,7 @@ public class CriAudioDataPlayer : MonoBehaviour
         }
     }
 
-    internal void Initialise(CriAudioData data)
+    public void Initialise(CriAudioData data)
     {
         this.data = data;
 
@@ -43,7 +43,7 @@ public class CriAudioDataPlayer : MonoBehaviour
         }
     }
 
-    internal void Play()
+    public void Play()
     {
         if (data.introClip != null && data.loopClip != null)
         {
@@ -64,7 +64,7 @@ public class CriAudioDataPlayer : MonoBehaviour
         }
     }
 
-    internal void Stop()
+    public void Stop()
     {
 
     }
